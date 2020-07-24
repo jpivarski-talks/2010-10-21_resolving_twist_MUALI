@@ -1,0 +1,32 @@
+Hi Jim,
+
+I've made an ntuple and a bunch of various plots available at
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/
+individually or you can download all of them from
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/plots.tgz
+
+The main visible thing is that there are quite strong q/pt and q/pz dependencies. And it all also shows the importance of the use of robust statistical estimates. E.g., check out how dramatically the q/pt or q/pz profiles changes when moving from the mean based to the peak based estimation:
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_means_vs_qopt__ME-21.png
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_peaks_vs_qopt__ME-21.png
+
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_means_vs_qopz__ME-21.png
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_peaks_vs_qopz__ME-21.png
+
+
+The + endcap has in general much better momentum dependence then th - endcap. E.g., compare
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_peaks_vs_qopz__ME+21.png
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_peaks_vs_qopz__ME-21.png
+or
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_peaks_vs_qopt__ME+21.png
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/profile_peaks_vs_qopt__ME-21.png
+So it does seem like the B field in ME- has some issues.
+
+Also, it looks like it might be better to use piece-vise linear function with two separate Q = +-1 regions to fit q/pt and, especially, q/pz.
+
+
+For the separated by charge ring correction estimates, the sin&cos terms generally agree in statistical terms. However, the phiz corrections are often quite different. E.g.
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/mapplot_vs_phi__qpos__ME-21.png
+http://hepr8.physics.tamu.edu/vadim/cms/mual/plots/tmp/2010-10-20/mapplot_vs_phi__qneg__ME-21.png
+
+
+-Vadim
